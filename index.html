@@ -1,0 +1,39 @@
+ <!DOCTYPE HTML>
+<head>
+  <title>Hunger Clock for 5e</title>
+</head>
+<body> 
+ <div class="timeDisplay" onload="displayTime()">
+   Hello
+ </div>
+ <div class="clock">
+   <div class="clock-face">
+     <div class="hand hand-hour"></div>
+     <div class="hand hand-minute"></div>
+   </div>
+ </div>
+ <div class="clockControls">
+   <button onclick="add15()">
+     + 15 mins
+   </button>
+   <button onclick="add30()">
+     + 30 mins
+   </button>
+   <button onclick="addHour()">
+     + 1 hour
+   </button>
+ </div>
+ <div class="characterGrid">
+   <div class="characters">
+     <p id="playerName">
+       Player 1
+     </p>
+     <p id="p1FoodCounter">
+       
+     </p>
+     <button onclick="eat()">
+       Eat
+     </button>
+   </div>
+ </div>
+</body>
